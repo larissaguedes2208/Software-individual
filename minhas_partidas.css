@@ -1,0 +1,71 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    background:#f4f6fa;
+    font-family:Arial, sans-serif;
+}
+
+.container{
+    max-width:430px;
+    margin:auto;
+}
+
+.header{
+    background:linear-gradient(135deg,#1E4580,#2A5FA5,#4A7EC7);
+    color:white;
+    padding:40px 20px;
+}
+
+.card{
+    background:white;
+    margin:20px;
+    padding:20px;
+    border-radius:18px;
+    box-shadow:0 4px 12px rgba(0,0,0,0.1);
+}
+
+.card h2{
+    margin-bottom:10px;
+}
+
+.card p{
+    margin-bottom:8px;
+}
+
+.status{
+    display:inline-block;
+    margin-top:10px;
+    margin-bottom:15px;
+    padding:5px 12px;
+    border-radius:20px;
+    font-size:14px;
+    font-weight:bold;
+}
+
+.confirmado{
+    background:#DCFCE7;
+    color:#16A34A;
+}
+
+.aguardando{
+    background:#DBEAFE;
+    color:#2563EB;
+}
+
+button{
+    width:100%;
+    padding:12px;
+    border:none;
+    border-radius:10px;
+    background:#2A5FA5;
+    color:white;
+    cursor:pointer;
+}
+
+button:hover{
+    background:#1E4580;
+}
